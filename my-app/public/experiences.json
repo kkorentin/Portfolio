@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2022-2025",
+    "title": "Apprenti développeur web et mobile, Infotel Lille",
+    "description": "•\tDéveloppement d’une application mobile avec le Framework Flutter pour le Front et Spring Boot pour l’API Back.\n•\tMaquettage et documentation technique de l’application mobile\n•\tDéveloppement d’une application web avec React pour le Front et Spring Boot pour le Back \n•\tRédaction de documentations techniques pour l’intégration de l’IA\n•\tCréation de Proof of Concept pour l’IA\n\n",
+    "skills": "React, Spring Boot, Flutter, API REST, Python, Machine learning, Prompt Engineering"
+  },
+  {
+    "date": "2024-2025",
+    "title": "Projet Smart Evolution (Projet étudiant)",
+    "description": "•\tConception d’une IA de prédiction pour les panneaux solaires\n•\tUtilisation de Python et librairies spécialisées (PyTorch, Pandas, Numpy)\n",
+    "skills": "Python, PyTorch, XGBoost, Pandas"
+  },
+  {
+    "date": "2021-2022",
+    "title": "Apprenti développeur, Chemin de Traverse,  Arras",
+    "description": "•\tDéveloppement de jeux électroniques avec Arduino\n•\tCréation d’un site web pour la gestion des factures clients (HTML, CSS, PHP) \n•\tQuelques missions en tant que Game master (animateur de parties)\n",
+    "skills": "Arduino,PhP,HTML,CSS"
+  },
+  {
+    "date": "2020-2021",
+    "title": "Agent de reconditionnement et pétrisseur",
+    "description": "Travail en tant qu'intérimaire dans une usine de viennoiseries surgelées",
+    "skills": ""
+  },
+  {
+    "date": "2018-2018",
+    "title": "Stage développeur",
+    "description": "•\tRéalisation d’une application de gestion de congés salariés sous SQL Server et Silog ERP.",
+    "skills": "ERP Silog"
+  }
+]
