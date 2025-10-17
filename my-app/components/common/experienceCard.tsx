@@ -13,8 +13,8 @@ export default function ExperienceCard({ date, title, description, skills }: Exp
                 <p className="text-sm font-semibold text-gray-700 flex-shrink-0" id="dateExperience">{date}</p>
                 <div className="pl-8">
                     <p className="text-sm text-gray-700" id="titleExperience">{title}</p>
-                    <div className="text-sm font-semibold text-gray-700 mt-2" id="description">{descriptionArray.map((desc)=>(
-                        <p>• {desc}</p>
+                    <div className="text-sm font-semibold text-gray-700 mt-2" id="description">{descriptionArray.map((desc,idx)=>(
+                        <p id={idx.toString()}>• {desc}</p>
                     ))}</div>
                     <div className="text-sm text-gray-700 flex flex-row pt-2 space-x-1" id="skillExperience">{skillsArray.map((skill,idx)=>(
                         <SkillsDecoration skillsDeco={skill} key={idx} />
