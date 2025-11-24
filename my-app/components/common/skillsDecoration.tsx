@@ -5,7 +5,7 @@ export type skillsDecorationProps = {
 export default function SkillsDecoration({skillsDeco}: skillsDecorationProps) {
     return (
         <div className="relative rounded-lg shadow-sm py-0.5 px-1">
-            {skillsDeco}
+            <p className="">{skillsDeco}</p>
         </div>
     )
 }

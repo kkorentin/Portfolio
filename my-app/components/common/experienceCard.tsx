@@ -12,8 +12,8 @@ export default function ExperienceCard({ date, title, description, skills }: Exp
             <div className="flex items-start px-2">
                 <p className="text-sm font-semibold text-gray-700 flex-shrink-0" id="dateExperience">{date}</p>
                 <div className="pl-8">
-                    <p className="text-sm text-gray-700" id="titleExperience">{title}</p>
-                    <div className="text-sm font-semibold text-gray-700 mt-2" id="description">{descriptionArray.map((desc,idx)=>(
+                    <p className="text-sm font-semibold text-gray-700" id="titleExperience">{title}</p>
+                    <div className="text-sm  text-gray-700 mt-2" id="description">{descriptionArray.map((desc,idx)=>(
                         <p key={idx} id={idx.toString()}>• {desc}</p>
                     ))}</div>
                     <div className="text-sm text-gray-700 flex flex-row pt-2 space-x-1" id="skillExperience">{skillsArray.map((skill,idx)=>(
