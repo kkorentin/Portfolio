@@ -12,11 +12,17 @@ export default function Projects() {
             .then((data) => setExperiences(data));
     }, []);
     return(
-        <div className="relative flex flex-col justify-between gap-4">
-            {experiences.map((experience,idx) => (
-                <ExperienceCard key={idx} date={experience.date} title={experience.title} description={experience.description} skills={experience.skills} />
-            ))}
+        <div className="flex flex-row gap-4">
+            <div className="flex flex-col justify-between w-[50%] gap-1 ">
+                {experiences.map((experience, idx) => (
+                    <ExperienceCard key={idx} date={experience.date} title={experience.title}
+                                    description={experience.description} skills={experience.skills}/>
+                ))}
+            </div>
+            <div className="flex flex-col justify-between w-[50%] gap-4">
+            </div>
         </div>
+
 
     )
 }

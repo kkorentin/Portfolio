@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2022-2025",
+    "title": "ISEN à Lille",
+    "skills": "J2EE, React, Android, Intelligence artificielle, Gestion de projet, DevOps, Next.JS "
+  },
+  {
+    "date": "2021-2022",
+    "title": "EPSI à Arras",
+    "skills": "Java, HTML, CSS, DevOps, Next.JS, Kotlin"
+  },
+  {
+    "date": "2018-2020",
+    "title": "Apprenti développeur web et mobile, Infotel Lille",
+    "skills": "Java, C#, HTML, CSS, Kotlin"
+  }
+]
