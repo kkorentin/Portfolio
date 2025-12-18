@@ -1,6 +1,5 @@
 import React from "react";
-import {ExperienceCardProps} from "@/components/common/experienceCardProps";
-import SkillsDecoration from "@/components/common/skillsDecoration";
+import {ExperienceCardProps} from "@/components/common/Experience/experienceCardProps";
 
 
 export default function ExperienceCard({ date, title, description, skills }: ExperienceCardProps) {
@@ -26,7 +25,12 @@ export default function ExperienceCard({ date, title, description, skills }: Exp
                     </div>
                     <div className="text-sm flex flex-row flex-wrap pt-2 gap-1" id="skillExperience">
                         {skillsArray.map((skill, idx) => (
-                            <SkillsDecoration skillsDeco={skill} key={idx} />
+                            <span
+                                key={idx}
+                                className="rounded-full bg-amber-100 text-amber-800 px-2 py-0.5"
+                            >
+                                {skill}
+                            </span>
                         ))}
                     </div>
                 </div>

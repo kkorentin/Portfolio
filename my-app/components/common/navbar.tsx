@@ -9,8 +9,8 @@ export default function Navbar() {
                     <Link href="/" className="uppercase tracking-wide text-sm font-semibold hover:text-gray-700">Accueil</Link>
                     <Link href="/experience"
                           className="uppercase tracking-wide text-sm font-semibold hover:text-gray-700" >Experiences</Link>
-                    <Link href="/about"
-                          className="uppercase tracking-wide text-sm font-semibold hover:text-gray-700">A Propos</Link>
+                    <Link href="/project"
+                          className="uppercase tracking-wide text-sm font-semibold hover:text-gray-700">Mes Projets</Link>
                 </div>
                 <div className="flex-1 flex justify-end items-center gap-4">
                     <div className="flex justify-end items-center gap-3 w-24">
